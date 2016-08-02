@@ -1,0 +1,39 @@
+{
+  "name": "nationalservicealliance",
+  "version": "1.0.0",
+  "description": "Node js library",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^3.1.0",
+    "jade": "^0.28.1",
+    "stylus": "^0.32.1",
+    "express-session": "^1.14.0"
+  },
+   "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha",
+	 "coverage": " istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vineetam/nsalibrary.git"
+  },
+  "keywords": [
+    "nsa"
+  ],
+  "author": "nsa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vineetam/nsalibrary/issues"
+  },
+  "homepage": "https://github.com/vineetam/nsalibrary#readme"
+}
